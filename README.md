@@ -59,7 +59,7 @@ modification-notice requirement.
 
 ```toml
 [dependencies]
-tree-sitter-nim = { git = "https://github.com/RhaB17369/tree-sitter-nim", rev = "<commit-sha-of-the-patch-commit>" }
+tree-sitter-nim = { git = "https://github.com/RhaB17369/tree-sitter-nim", rev = "68b07d925a67472b5877f5c4bc0dd0cf50260a8c" }
 ```
 
 If upstream ever relaxes its own version pin (or rebases onto a newer
