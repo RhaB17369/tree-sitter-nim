@@ -19,7 +19,7 @@ jobs:
       - name: Install VS 2022 (Windows)
         if: runner.os == 'Windows'
         run: choco install visualstudio2022-workload-vctools -y
-      - uses: tree-sitter/parser-test-action@v2
+      - uses: tree-sitter/parser-test-action@v3
         with:
           abi-version: 14
           test-rust: true
